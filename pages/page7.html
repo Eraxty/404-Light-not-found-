@@ -12,6 +12,22 @@
 </head>
 <body>
     <p>Step 7 of 10 toward dark mode</p>
-    <h1 class="verdict">Not a good reason.</h1>
+    <h1>solve this captcha to prove ur a human</h1>
+    <div class="captcha">
+        
+        <div class="captcha-board">
+            <canvas id="captcha-bg" width="320" height="160"></canvas>
+            <canvas id="captcha-piece" width="320" height="160"></canvas>
+        
+        </div>
+        
+        <input type="range" id="captcha-slider" min="0" value="0" aria-label="Slide the piece into the gap">
+        
+        <p id="captcha-status" class="captcha-status">Slide the piece into the gap</p>
+    </div>
+    
+    <a class="button" id="continue" href="/pages/page8.html" aria-disabled="true">CONTINUE</a>
+
+    <script type="module" src="/js/captcha.js"></script>
 </body>
 </html>
