@@ -63,7 +63,7 @@ input[type='text'] {
   height: auto;
 }
 
-.angy-inline {
+.angyInline {
   height: 1.2em;
   width: auto;
   vertical-align: middle;
@@ -152,4 +152,37 @@ a.button[aria-disabled='true'] {
 
 [hidden] {
   display: none !important;
+}
+
+.goingDark {
+  animation: goDark 2s ease-in-out 0.5s forwards;
+}
+
+.goingDark a.button {
+  animation: goDarkButton 2s ease-in-out 0.5s forwards;
+}
+
+.goingDark > * {
+  opacity: 0;
+  animation: appear 0.5s ease-out 2.5s forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes goDark {
+  to {
+    background: #111;
+    color: #eee;
+  }
+}
+
+@keyframes goDarkButton {
+  to {
+    background: #333;
+    color: #ffe14d;
+  }
 }
