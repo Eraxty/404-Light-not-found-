@@ -33,3 +33,31 @@ a.button {
   display: flex;
   gap: 1.5rem;
 }
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input[type='text'] {
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #ffe14d;
+  border-radius: 999px;
+  background: #fff;
+  outline: none;
+}
+
+.verdict {
+  color: #c0392b;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+
+.angy {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}

@@ -1,4 +1,4 @@
-const MAX_TRIES = 2
+const MAX_TRIES = 10
 
 const button = document.querySelector('button')
 let offsetX = 0
