@@ -16,11 +16,20 @@ h1 {
   margin: 1rem 0 2rem;
 }
 
-button {
+button,
+a.button {
   transition: transform 0.2s ease-out;
   font-family: inherit;
   font-size: 1.5rem;
   padding: 0.75rem 2rem;
   background: #ffe14d;
   border-radius: 999px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
 }
