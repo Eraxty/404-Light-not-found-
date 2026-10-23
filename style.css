@@ -1,4 +1,10 @@
 body {
   font-family: system-ui, sans-serif;
   margin: 2rem;
+  background: #fffbe0;
+}
+
+button {
+  background: #ffe14d;
+  border-radius: 999px;
 }
