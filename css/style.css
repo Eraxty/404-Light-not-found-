@@ -31,6 +31,7 @@ a.button {
 
 .buttons {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -60,6 +61,12 @@ input[type='text'] {
   max-width: 300px;
   width: 100%;
   height: auto;
+}
+
+.angy-inline {
+  height: 1.2em;
+  width: auto;
+  vertical-align: middle;
 }
 
 .captcha {
@@ -123,4 +130,26 @@ a.button[aria-disabled='true'] {
 
 .terms p {
   margin: 0.75rem 0;
+}
+
+.progress {
+  width: 500px;
+  max-width: 90vw;
+  height: 28px;
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 2px solid #ffe14d;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0;
+  height: 100%;
+  background: #ffe14d;
+  transition: width 0.2s linear;
+}
+
+[hidden] {
+  display: none !important;
 }

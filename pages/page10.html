@@ -13,5 +13,18 @@
 <body>
     <p>Step 10 of 10 toward dark mode</p>
     <h1>Downloading dark mode</h1>
+    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <p id="progress-text">0%</p>
+    <div id="stuck" hidden>
+        <h2 class="verdict">aw shi its stuck at 99 percent. what are u gonna do</h2>
+        <div class="buttons">
+            <a class="button" href="/pages/good.html">GIVE UP</a>
+            <a class="button" href="/pages/page11.html">WAIT</a>
+        </div>
+    </div>
+
+    <script type="module" src="/js/download.js"></script>
 </body>
 </html>
