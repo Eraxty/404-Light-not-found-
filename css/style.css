@@ -106,3 +106,21 @@ a.button[aria-disabled='true'] {
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+.terms {
+  width: 600px;
+  max-width: 90vw;
+  height: 280px;
+  overflow-y: auto;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+  border: 2px solid #ffe14d;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.terms p {
+  margin: 0.75rem 0;
+}
