@@ -7,7 +7,7 @@ const pages = readdirSync(resolve(import.meta.dirname, 'pages'))
   .map((file) => resolve(import.meta.dirname, 'pages', file))
 
 export default defineConfig({
-  base: '/404-Light-not-found/',
+  base: '/404-Light-not-found-/',
   build: {
     rollupOptions: {
       input: [resolve(import.meta.dirname, 'index.html'), ...pages],
