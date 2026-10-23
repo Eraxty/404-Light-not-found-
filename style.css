@@ -1,10 +1,11 @@
 body {
-  font-family: system-ui, sans-serif;
+  font-family: 'Josefin Sans', system-ui, sans-serif;
   margin: 2rem;
   background: #fffbe0;
 }
 
 button {
+  font-family: inherit;
   background: #ffe14d;
   border-radius: 999px;
 }
