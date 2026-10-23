@@ -33,5 +33,5 @@ button.addEventListener('touchstart', (e) => {
 })
 
 button.addEventListener('click', () => {
-  if (tries >= MAX_TRIES) window.location.href = '/pages/page2.html'
+  if (tries >= MAX_TRIES) window.location.href = 'pages/page2.html'
 })

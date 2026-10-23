@@ -77,4 +77,4 @@ continueButton.addEventListener('click', (e) => {
 })
 
 image.addEventListener('load', newPuzzle)
-image.src = '/images/angy.png'
+image.src = `${import.meta.env.BASE_URL}images/angy.png`
