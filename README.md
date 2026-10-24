@@ -4,6 +4,8 @@
 
 A website that really, really doesn't want you to turn on dark mode
 
+
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -11,7 +13,7 @@ A website that really, really doesn't want you to turn on dark mode
 ![Hackatime](https://hackatime.hackclub.com/api/v1/badge/U09JP15EVQU/Eraxty/404-Light-not-found-)
 
 [Play](#play) • [Features](#features) • [Run locally](#run-locally) • [Deploy](#deploy) • [Credits](#credits)
-
+![page](image.png)
 </div>
 
 ---
@@ -19,7 +21,7 @@ A website that really, really doesn't want you to turn on dark mode
 ## Why 404 Light Not Found
 
 U wanna turn on dark mode go on try turning it on....
-its just a troll website
+its just a troll website i made randmly because i have nothing to do 
 
 ## Play
 
@@ -57,4 +59,4 @@ npm run preview
 
 ## Credits
 
-Built by [Me](https://github.com/Eraxty) just random ahh troll website no licence 
+Built by [Me](https://github.com/Eraxty) just random ahh troll website, [MIT licensed](LICENSE)
